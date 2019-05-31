@@ -7,6 +7,10 @@ import FamiliaSilva from './componentes/FamiliaSilva'
 import Famila from './componentes/Familia'
 import Membro from './componentes/Membro'
 import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+import Pai from './componentes/Pai'
+import ComponenteClasse from './componentes/ComponeteClasse'
+import Hooks from './componentes/Hooks'
+// import Contador from './componentes/Contador'
 
 
 const elemento = document.getElementById("root")
@@ -14,7 +18,10 @@ const elemento = document.getElementById("root")
 //ReactDOM.render(<h1>Ola mundo novamente!</h1>, elemento)
   
 ReactDOM.render(
-    <ComponenteComFuncao />
+    <Hooks numeroInicial =  {100} />
+    //<ComponenteClasse valor = 'Sou um elemento bacana'/>
+    // <Pai />
+    // <ComponenteComFuncao />
     // <Famila sobrenome = 'Rabelo'>
     //     <Membro nome = 'Andre' />
     //     <Membro nome = 'Caio' />
